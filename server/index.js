@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 const CONTACTS_COLLECTION = 'contacts';
 let ObjectID = mongodb.ObjectID;
 
-mongodb.MongoClient.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/axrail_phone', {
+mongodb.MongoClient.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/phone_app', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }, (err, client) => {
