@@ -2,6 +2,7 @@
 
 ### git repository
 git clone https://github.com/jeffrey-anglyeds/phonebook.git
+
 cd phonebook
 
 ### web frontend
