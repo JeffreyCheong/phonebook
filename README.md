@@ -7,7 +7,9 @@ cd phonebook
 
 ### web frontend
 cd web
+
 npm install -y
+
 npm start
 
 #### dependencies
@@ -15,4 +17,5 @@ npm i -D nodemon
 
 ### web server backend
 cd server
+
 npm install -y
